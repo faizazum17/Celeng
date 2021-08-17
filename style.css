@@ -26,15 +26,11 @@ li {
 	list-style: none;
 }
 
-header {
-   
-}
-
 /*  Jumbotron */
 .jumbotron {
   display: flex;
   flex-direction: row;
-  padding: 180px 0 100px 0;
+  padding: 150px 0 150px 0;
   background-color: #a1a7b3;
   height: 90vh;
   color: #ffffff;
@@ -130,7 +126,8 @@ header {
 	display: flex;
 	flex-direction: row;
 	/* height: 50vh; */
-	padding: 20px;
+	padding: 75px;
+	padding-bottom: 10px !important;
 	/* background-color: #548CA8; */
 }
 
@@ -138,7 +135,7 @@ header {
 	flex: 1;
 	order: 1;
 	margin: 0 auto;
-	text-align: center;
+	text-align: justify;
 	margin-right: 3em;
 }
 
@@ -155,12 +152,14 @@ header {
 .contact a {
 	color: #ddd;
 	border-bottom: 1.5px solid #ddd;
+	text-decoration: none;
 }
 
 /* Skill style */
 .skill {
 	background-image: url(img/email-pattern.png);
-	padding: 25px;
+	padding: 75px;
+	padding-top:10px !important;
 }
 
 .skill-items {
@@ -176,7 +175,7 @@ header {
 }
 
 .frontend {
-	border-radius: 5px;
+	border-radius: 15px;
 	border: 3px solid #191919;
 	padding: 10px;
 	margin-right: 10px;
@@ -186,7 +185,7 @@ header {
 }
 
 .backend {
-	border-radius: 5px;
+	border-radius: 15px;
 	border: 3px solid #191919;
 	padding: 10px;
 	margin-right: 10px;
@@ -196,7 +195,7 @@ header {
 }
 
 .ui {
-	border-radius: 5px;
+	border-radius: 15px;
 	border: 3px solid #191919;
 	padding: 10px;
 	flex: 1;
@@ -208,12 +207,13 @@ header {
 .portofolio {
 	display: flex;
 	flex-direction: row;
-	padding: 10px;
+	padding: 75px;
+	padding-top: 40px !important;
 	margin-bottom: 20px;
 }
 
 .card-1 {
-	border-radius: 5px;
+	border-radius: 15px;
 	border: 3px solid #191919;
 	padding: 10px;
 	margin-right: 10px;
@@ -222,7 +222,7 @@ header {
 }
 
 .card-2 {
-	border-radius: 5px;
+	border-radius: 15px;
 	border: 3px solid #191919;
 	padding: 10px;
 	margin-right: 10px;
@@ -231,7 +231,7 @@ header {
 }
 
 .card-3 {
-	border-radius: 5px;
+	border-radius: 15px;
 	border: 3px solid #191919;
 	padding: 10px;
 	flex: 1;
@@ -318,6 +318,10 @@ header {
 .top {
 	flex: 1;
 	order: 2;
+}
+
+.nodecor a{
+	text-decoration: none;
 }
 
 /* Responsive Breakpoint */
