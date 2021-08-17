@@ -26,8 +26,6 @@ li {
 	list-style: none;
 }
 
-
-
 /*  Jumbotron */
 .jumbotron {
   display: flex;
@@ -149,6 +147,7 @@ li {
 	flex: 1;
 	order: 2;
 	margin: 0 auto;
+	text-decoration:none
 }
 
 .contact a {
@@ -251,7 +250,8 @@ li {
 
 /* All Hover Effects */
 .contact a:hover, .contact a:active {
-	border-bottom: 1.5px solid #ddd;
+	border-bottom: 2px solid #ddd;
+  	transition: all .3s ease;
 }
 
 .btn-1:hover, .btn-2:hover {
@@ -270,7 +270,7 @@ li {
 }
 
 .contact a:hover {
-	border-bottom: 1.5px dashed #ddd;
+	border-bottom: 1.5px dashed #fff;
 }
 
 .frontend:hover, .backend:hover, .ui:hover, .card-1:hover, .card-2:hover, .card-3:hover {
@@ -367,6 +367,7 @@ li {
 
 	.contact {
 		text-align: center;
+		text-decoration:none;
 	}
 
 	.ui, .card-3 {
